@@ -5,8 +5,6 @@ services:
     build: ./product
     volumes:
       - ./product:/usr/src/app
-    ports:
-      - 5001:80
 
   website:
     image: php:apache
